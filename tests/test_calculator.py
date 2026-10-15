@@ -6,6 +6,7 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from src.calculator import Calculator
 
+
 class TestCalculator:
     def setup_method(self):
         self.calc = Calculator()
